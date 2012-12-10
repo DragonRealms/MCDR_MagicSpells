@@ -19,7 +19,7 @@ public class ShockSpell extends TargetedEntitySpell {
 		
 		targetPlayers = getConfigBoolean("target-players", false);
 		obeyLos = getConfigBoolean("obey-los", true);
-		duration = getConfigInt("duration", );
+		duration = getConfigInt("duration", 1);
 	}
 
 	public boolean castAtEntity(Player caster, LivingEntity target, float power) {
